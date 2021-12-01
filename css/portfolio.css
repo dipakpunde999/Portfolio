@@ -1,0 +1,219 @@
+@CHARSET "ISO-8859-1";
+.nav{
+	 height: 10vh;
+	position:fixed;
+   background: rgba(10,10,10,0.4);
+   margin-left:10px; 
+   width: 960px;
+}
+.logo h1{
+	margin-top:15px;
+	color: #fff;
+	font-size: 50px;
+}
+.logo h1 span{
+	color: #ff0000;
+	font-size: 50px;
+}
+.nav_menu{
+	margin:20px;
+	margin-top: 15px;
+	
+}
+.nav_menu a{
+	text-decoration: none;
+	color: #fff;
+	
+}
+.nav_menu a:HOVER{
+	border-bottom: 2px solid #ff0000;
+}
+.home-content{
+	position:absolute;
+	top: 10em;
+	left: 20em;
+	 
+}
+.text-1,.text-3{
+	color: #fff;
+	font-size: 48px;
+	font-weight: bold;
+}
+.text-2{
+	color: #fff;
+	font-size: 78px;
+	font-weight: bold;
+}
+.btn{
+	margin-top:20px;
+	width:80px;
+	background: #ff0000;
+	border: 2px solid #ff0000;
+	border-radius: 10px;
+	padding:10px 30px;
+	color: #fff;
+	text-decoration:none;
+}
+.btn a{
+	text-decoration: none;
+	color: black;
+}
+
+.btn:HOVER{
+	color:#ff0000;
+	background: #fff;
+	
+}
+ h1{
+	text-align:center;
+	color: #000;
+}
+ span{
+	color: #ff0000;
+	text-align: center;
+	font-size: 25px;
+}
+.column_right{
+	text-align: center;
+	margin-left: 80px;
+	line-height: 1.6;
+}
+.cv{
+	width:170px;
+margin-left: 50px;
+padding:10px 45px;	
+}
+#services{
+    height:60vh;
+	background: #000;
+   
+}
+#services h1{
+	padding-top:35px;
+	color: #fff;
+
+}
+.card{
+	color: #fff;
+	text-align:center;
+	margin: 25px 5px;
+	padding:25px 0px;
+}
+.card:HOVER {
+	background: #ff0000;
+	border: 2px solid #ff0000;
+	border-radius:10px; 
+}
+.text{
+	text-align: center;
+	font-weight: bold;
+}
+.left p{
+	text-align: center;
+}
+.info span{
+	color: #000;
+	
+}
+.line{
+    border-bottom:6px solid #ff0000;
+   /*  position: absolute; */
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: crimson;
+    margin: 20px 0px;
+}
+.html{
+    width: 100%;
+}
+.css{
+    width: 90%;
+}
+.javascript{
+    width: 45%;
+}
+.java{
+    width: 70%;
+}
+#teams{
+	color: #fff;
+	background: #000;
+	height: 400px;
+}
+#teams h1{
+	padding:15px 0px;
+	color: #fff;
+}
+.box img{
+width:120px;
+	height:120px;
+	border:2px solid #ff0000;
+	border-radius:50%; 
+}
+.box{
+	text-align: center;
+}
+.field input{
+	margin:10px;
+	width:100%;
+	border: 2px solid;
+	border-radius:10px;
+	padding: 10px; 
+}
+.textarea textarea{
+	margin:10px;
+	width:100%;
+	border: 2px solid;
+	border-radius:10px;
+	padding: 5px; 
+}
+.row{
+	margin-top: 15px;
+}
+.column{
+	text-align: left;
+}
+.footer{
+	margin-top:25px;
+	padding:10px;
+	width:100%;
+	background: #000;
+	text-align: center;
+}
+.footer span{
+	color: #fff;
+}
+.footer span a{
+	text-decoration: none;
+	color: #ff0000;
+}
+.change_content:AFTER {
+	content: '';
+	animation: changetext 10s infinite linear;
+	color: red;
+	
+}
+@keyframes changetext
+{
+	0%{content:"FrontEnd Devloper";}
+	20%{content:"BackEnd Devloper"}
+	40%{content:"Software Devloper";}
+	60%{content:"Programmer";}
+	80%{content:"Web Devloper";}
+	100%{content:"Full stack Devloper";}
+}
+.row .fas{
+	float: left;
+	color: #ff0000;
+	margin: 0px 5px;
+}
+.info{
+	padding:0px 10px;
+}
+
+
+
+
+
+
